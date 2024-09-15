@@ -2,19 +2,19 @@
 - hosts: kslave1
   become: yes
   tasks:
-    - name: Update all packages
+    - name: Update cache.. 
       apt:
         update_cache: yes
  
-    - name: Install Python3 package
+    - name: Install Python3 package..
       apt:
         name: python3
         state: present
-    - name: Install git package
+    - name: Install git package..
       apt:
         name: git
         state: present
-    - name: Install open-ssh package
+    - name: Install open-ssh package..
       apt:
         name: openssh-server
         state: present
