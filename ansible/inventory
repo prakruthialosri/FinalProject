@@ -1,6 +1,6 @@
-[slave]
-172.31.39.149
+[SlaveNode]
+TestNode ansible_host=44.204.58.150
 
-[slave:vars]
-ansible_user=ec2-user
+[SlaveNode:vars]
+ansible_user=ubantu
 ansible_python_interpreter=/usr/bin/python3.9
