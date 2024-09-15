@@ -1,5 +1,5 @@
 ---
-- hosts: "all"
+- hosts: "TestNode"
   become: yes
   tasks:
     - name: Update all packages
@@ -7,7 +7,7 @@
         name: '*'
         state: latest
         update_only: yes
-
+ 
     - name: Install required packages
       dnf:
         name: "{{ packages }}"
