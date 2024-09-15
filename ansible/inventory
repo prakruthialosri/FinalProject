@@ -1,5 +1,5 @@
 [SlaveNode]
-TestNode ansible_host=44.201.209.123
+TestNode ansible_host=18.205.233.187
 
 [SlaveNode:vars]
 ansible_user=ubuntu
